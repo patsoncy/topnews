@@ -1,0 +1,8 @@
+拆分成三个模块：
+1、topnews-scrapy：一个定时执行的脚本，负责爬取网站头条名称及地址，存入数据库中。
+scrapy+mysql
+2、topnews-api:基于django的restful接口，提供json格式的数据
+django
+3、topnews-web:UI层，展示新闻分类
+mvvm；avalon
+打包编译：gulp
